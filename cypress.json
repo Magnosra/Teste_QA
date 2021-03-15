@@ -1,0 +1,18 @@
+{
+  "viewportWidth": 1024,
+  "viewportHeight": 768,
+  "defaultCommandTimeout": 10000,
+  "baseUrl": "http://prova.stefanini-jgr.com.br/teste/qa/",
+  "reporter": "mochawesome",
+  "reporterOptions": {
+    "reportDir": "cypress/report/mochawesome-report",
+    "overwrite": false,
+    "html": false,
+    "json": true,
+    "timestamp": "mmddyyyy_HHMMss",
+    "reportTitle": "Report da Execucação",
+    "cdn": true,
+    "charts": true
+  }
+  
+}

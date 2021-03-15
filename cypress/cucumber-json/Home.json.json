@@ -1,0 +1,782 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Realizar Testes da Interface de Cadastro de Usuarios da Stefanini",
+    "line": 1,
+    "id": "realizar-testes-da-interface-de-cadastro-de-usuarios-da-stefanini",
+    "tags": [],
+    "uri": "Home.feature",
+    "elements": [
+      {
+        "id": "realizar-testes-da-interface-de-cadastro-de-usuarios-da-stefanini;validar-os-campos-vazios---cenario-1",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Validar os campos vazios - Cenario 1",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "Acessar o site Prova Stefanini",
+            "result": {
+              "status": "passed",
+              "duration": 9606000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "Validar o Layout",
+            "result": {
+              "status": "passed",
+              "duration": 1013000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "Validar que os campos Input estao vazios",
+            "result": {
+              "status": "passed",
+              "duration": 952000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "realizar-testes-da-interface-de-cadastro-de-usuarios-da-stefanini;validar-mensagem-de-campos-obrigatorios---nome---cenario-2",
+        "keyword": "Scenario",
+        "line": 21,
+        "name": "Validar Mensagem de Campos Obrigatorios - Nome - Cenario 2",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "Acessar o site Prova Stefanini",
+            "result": {
+              "status": "passed",
+              "duration": 2395000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "Preencher o campo email \"#email\" \"magno@teste.com.br\"",
+            "result": {
+              "status": "passed",
+              "duration": 1502000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "Preencher o campo senha \"#password\" \"St123456\"",
+            "result": {
+              "status": "passed",
+              "duration": 1271000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "Clicar no botão Cadastrar \"Cadastrar\"",
+            "result": {
+              "status": "passed",
+              "duration": 1057000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "Validar Mensagem de Campo Nome é Obrigatorio \"O campo Nome é obrigatório.\"",
+            "result": {
+              "status": "passed",
+              "duration": 959000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "realizar-testes-da-interface-de-cadastro-de-usuarios-da-stefanini;validar-mensagem-de-campos-obrigatorios---email---cenario-3",
+        "keyword": "Scenario",
+        "line": 32,
+        "name": "Validar Mensagem de Campos Obrigatorios - Email - Cenario 3",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "Acessar o site Prova Stefanini",
+            "result": {
+              "status": "passed",
+              "duration": 2688000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 25,
+            "name": "Preencher o campo nome \"#name\" \"Magno Silva\"",
+            "result": {
+              "status": "passed",
+              "duration": 1401000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 26,
+            "name": "Preencher o campo senha \"#password\" \"St123456\"",
+            "result": {
+              "status": "passed",
+              "duration": 1287000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 27,
+            "name": "Clicar no botão Cadastrar \"Cadastrar\"",
+            "result": {
+              "status": "passed",
+              "duration": 1114000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 28,
+            "name": "Validar Mensagem de Campo Email é Obrigatorio \"O campo E-mail é obrigatório.\"",
+            "result": {
+              "status": "passed",
+              "duration": 920000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "realizar-testes-da-interface-de-cadastro-de-usuarios-da-stefanini;validar-mensagem-de-campos-obrigatorios---senha---cenario-4",
+        "keyword": "Scenario",
+        "line": 43,
+        "name": "Validar Mensagem de Campos Obrigatorios - Senha - Cenario 4",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "Acessar o site Prova Stefanini",
+            "result": {
+              "status": "passed",
+              "duration": 2096000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 36,
+            "name": "Preencher o campo nome \"#name\" \"Magno Silva\"",
+            "result": {
+              "status": "passed",
+              "duration": 1272000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 37,
+            "name": "Preencher o campo email \"#email\" \"magno@teste.com.br\"",
+            "result": {
+              "status": "passed",
+              "duration": 1302000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 38,
+            "name": "Clicar no botão Cadastrar \"Cadastrar\"",
+            "result": {
+              "status": "passed",
+              "duration": 1002000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 39,
+            "name": "Validar Mensagem de Campo Senha é Obrigatorio \"O campo Senha é obrigatório.\"",
+            "result": {
+              "status": "passed",
+              "duration": 826000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "realizar-testes-da-interface-de-cadastro-de-usuarios-da-stefanini;validar-mensagem-de-campos-obrigatorios-não-preenchido----cenario-5",
+        "keyword": "Scenario",
+        "line": 52,
+        "name": "Validar Mensagem de Campos Obrigatorios não preenchido  - Cenario 5",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "Acessar o site Prova Stefanini",
+            "result": {
+              "status": "passed",
+              "duration": 2457000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 47,
+            "name": "Clicar no botão Cadastrar \"Cadastrar\"",
+            "result": {
+              "status": "passed",
+              "duration": 1050000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 48,
+            "name": "Validar Mensagens de Alerta dos campos \"O campo Nome é obrigatório.\" \"O campo E-mail é obrigatório.\" \"O campo Senha é obrigatório.\"",
+            "result": {
+              "status": "passed",
+              "duration": 2542000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "realizar-testes-da-interface-de-cadastro-de-usuarios-da-stefanini;validar-mensagem-de-campo-nome-parcialmente-preenchido---nome-parcial----cenario-6",
+        "keyword": "Scenario",
+        "line": 64,
+        "name": "Validar Mensagem de Campo Nome Parcialmente Preenchido - Nome Parcial  - Cenario 6",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "Acessar o site Prova Stefanini",
+            "result": {
+              "status": "passed",
+              "duration": 2012000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 56,
+            "name": "Preencher o campo Nome incompleto \"#name\" \"Magno\"",
+            "result": {
+              "status": "passed",
+              "duration": 1223000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 57,
+            "name": "Preencher o campo email \"#email\" \"magno@teste.com.br\"",
+            "result": {
+              "status": "passed",
+              "duration": 1328000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 58,
+            "name": "Preencher o campo senha \"#password\" \"St123456\"",
+            "result": {
+              "status": "passed",
+              "duration": 1278000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 59,
+            "name": "Clicar no botão Cadastrar \"Cadastrar\"",
+            "result": {
+              "status": "passed",
+              "duration": 1030000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 60,
+            "name": "Validar Mensagens de Alerta do campo Nome \"Por favor, insira um nome completo.\"",
+            "result": {
+              "status": "passed",
+              "duration": 946000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "realizar-testes-da-interface-de-cadastro-de-usuarios-da-stefanini;validar-mensagem-de-campo-email-incorreto---email-inválido---cenario-7",
+        "keyword": "Scenario",
+        "line": 76,
+        "name": "Validar Mensagem de Campo Email Incorreto - Email Inválido - Cenario 7",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "Acessar o site Prova Stefanini",
+            "result": {
+              "status": "passed",
+              "duration": 2487000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 68,
+            "name": "Preencher o campo Nome completo \"#name\" \"Magno Silva\"",
+            "result": {
+              "status": "passed",
+              "duration": 1297000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 69,
+            "name": "Preencher o campo email com email inválido \"#email\" \"magno.teste.com.br\"",
+            "result": {
+              "status": "passed",
+              "duration": 1359000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 70,
+            "name": "Preencher o campo senha \"#password\" \"St123456\"",
+            "result": {
+              "status": "passed",
+              "duration": 1163000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 71,
+            "name": "Clicar no botão Cadastrar \"Cadastrar\"",
+            "result": {
+              "status": "passed",
+              "duration": 1067000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 72,
+            "name": "Validar Mensagens de Alerta do campo Email \"Por favor, insira um e-mail válido.\"",
+            "result": {
+              "status": "passed",
+              "duration": 839000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "realizar-testes-da-interface-de-cadastro-de-usuarios-da-stefanini;validar-mensagem-do-campo-senha-com-quantidade-de-caracter-inválida---senha-inválido---cenario-8",
+        "keyword": "Scenario",
+        "line": 88,
+        "name": "Validar Mensagem do Campo Senha com quantidade de caracter Inválida - Senha Inválido - Cenario 8",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "Acessar o site Prova Stefanini",
+            "result": {
+              "status": "passed",
+              "duration": 2075000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 80,
+            "name": "Preencher o campo Nome completo \"#name\" \"Magno Silva\"",
+            "result": {
+              "status": "passed",
+              "duration": 1256000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 81,
+            "name": "Preencher o campo email \"#email\" \"magno@teste.com.br\"",
+            "result": {
+              "status": "passed",
+              "duration": 1319000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 82,
+            "name": "Preencher o campo senha com quantidade de caracteres inválida \"#password\" \"St123\"",
+            "result": {
+              "status": "passed",
+              "duration": 1155000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 83,
+            "name": "Clicar no botão Cadastrar \"Cadastrar\"",
+            "result": {
+              "status": "passed",
+              "duration": 992000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 84,
+            "name": "Validar Mensagens de Alerta do campo Senha \"A senha deve conter ao menos 8 caracteres.\"",
+            "result": {
+              "status": "passed",
+              "duration": 885000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "realizar-testes-da-interface-de-cadastro-de-usuarios-da-stefanini;cadastrar-usuario---cenario-9",
+        "keyword": "Scenario",
+        "line": 90,
+        "name": "Cadastrar Usuario - Cenario 9",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "Acessar o site Prova Stefanini",
+            "result": {
+              "status": "passed",
+              "duration": 2448000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 92,
+            "name": "Preencher o campo Nome completo \"#name\" \"Magno Silva\"",
+            "result": {
+              "status": "passed",
+              "duration": 1241000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 93,
+            "name": "Preencher o campo email \"#email\" \"magno@teste.com.br\"",
+            "result": {
+              "status": "passed",
+              "duration": 1362000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 94,
+            "name": "Preencher o campo senha \"#password\" \"St12345678\"",
+            "result": {
+              "status": "passed",
+              "duration": 1221000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 95,
+            "name": "Clicar no Botão Cadastrar \"Cadastrar\"",
+            "result": {
+              "status": "passed",
+              "duration": 1812000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 96,
+            "name": "Validar Usuário Cadastrado \"Magno Silva\"",
+            "result": {
+              "status": "passed",
+              "duration": 1763000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "realizar-testes-da-interface-de-cadastro-de-usuarios-da-stefanini;cadastrar-usuarios---cadastrar-dois-usuários---cenario-10",
+        "keyword": "Scenario",
+        "line": 98,
+        "name": "Cadastrar Usuarios - Cadastrar Dois Usuários - Cenario 10",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "Acessar o site Prova Stefanini",
+            "result": {
+              "status": "passed",
+              "duration": 2108000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 100,
+            "name": "Preencher o campo Nome completo \"#name\" \"Magno Silva\"",
+            "result": {
+              "status": "passed",
+              "duration": 1221000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 101,
+            "name": "Preencher o campo email \"#email\" \"magno@teste.com.br\"",
+            "result": {
+              "status": "passed",
+              "duration": 1351000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 102,
+            "name": "Preencher o campo senha \"#password\" \"St12345678\"",
+            "result": {
+              "status": "passed",
+              "duration": 1263000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 103,
+            "name": "Clicar no Botão Cadastrar \"Cadastrar\"",
+            "result": {
+              "status": "passed",
+              "duration": 1704000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 104,
+            "name": "Preencher o campo Nome completo \"#name\" \"Alexi James\"",
+            "result": {
+              "status": "passed",
+              "duration": 2012000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 105,
+            "name": "Preencher o campo email \"#email\" \"Alexi@teste.com.br\"",
+            "result": {
+              "status": "passed",
+              "duration": 2132000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 106,
+            "name": "Preencher o campo senha \"#password\" \"St123456\"",
+            "result": {
+              "status": "passed",
+              "duration": 1881000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 107,
+            "name": "Clicar no Botão Cadastrar \"Cadastrar\"",
+            "result": {
+              "status": "passed",
+              "duration": 1831000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 108,
+            "name": "Validar Usuários Cadastrados \"Magno Silva\" \"Alexi James\"",
+            "result": {
+              "status": "passed",
+              "duration": 3389000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "realizar-testes-da-interface-de-cadastro-de-usuarios-da-stefanini;excluir-o-primeiro-usuario-cadastrado---excluir-usuário---cenario-11",
+        "keyword": "Scenario",
+        "line": 110,
+        "name": "Excluir o Primeiro Usuario Cadastrado - Excluir Usuário - Cenario 11",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "Acessar o site Prova Stefanini",
+            "result": {
+              "status": "passed",
+              "duration": 2581000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 112,
+            "name": "Preencher o campo Nome completo \"#name\" \"Magno Silva\"",
+            "result": {
+              "status": "passed",
+              "duration": 1267000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 113,
+            "name": "Preencher o campo email \"#email\" \"magno@teste.com.br\"",
+            "result": {
+              "status": "passed",
+              "duration": 1309000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 114,
+            "name": "Preencher o campo senha \"#password\" \"St12345678\"",
+            "result": {
+              "status": "passed",
+              "duration": 1230000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 115,
+            "name": "Clicar no Botão Cadastrar \"Cadastrar\"",
+            "result": {
+              "status": "passed",
+              "duration": 1897000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 116,
+            "name": "Preencher o campo Nome completo \"#name\" \"Alexi James\"",
+            "result": {
+              "status": "passed",
+              "duration": 2118000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 117,
+            "name": "Preencher o campo email \"#email\" \"Alexi@teste.com.br\"",
+            "result": {
+              "status": "passed",
+              "duration": 2142000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 118,
+            "name": "Preencher o campo senha \"#password\" \"St123456\"",
+            "result": {
+              "status": "passed",
+              "duration": 2025000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 119,
+            "name": "Clicar no Botão Cadastrar \"Cadastrar\"",
+            "result": {
+              "status": "passed",
+              "duration": 1774000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 120,
+            "name": "Validar Usuários Cadastrados \"Magno Silva\" \"Alexi James\"",
+            "result": {
+              "status": "passed",
+              "duration": 3373000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 121,
+            "name": "Excluir o Primeiro Usuario \"removeUser1\" \"Excluir\"",
+            "result": {
+              "status": "passed",
+              "duration": 1797000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
